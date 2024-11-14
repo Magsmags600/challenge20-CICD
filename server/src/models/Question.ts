@@ -5,6 +5,8 @@ interface IAnswer extends Document {
   isCorrect: boolean;
 }
 
+
+
 interface IQuestion extends Document {
   question: string;
   answers: IAnswer[];
